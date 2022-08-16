@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T07:54:06.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Ke0kex2sPDFMiJ7MQeCt" version="20.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-16T07:55:30.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6M5jaIqzioTnDkQDoEw6" version="20.2.3" type="github" pages="3">
   <diagram id="sGbhmzFvRG2bLKqfwy7_" name="修改续费周期">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
         <mxCell id="7HXPHZwloIw2rMWPd2Ez-26" value="bss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7HXPHZwloIw2rMWPd2Ez-30" value="开辟线程直接落表，id、lid、执行日期、下单时间、c_date、u_date、执行状态、订单json&lt;br&gt;定时任务 轮询前一天用户数据，&lt;br&gt;修改条件：1、用户有签约信息&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a 获取当前签约的续费周期，判断当前时间是否处于续费周期内，若处在续费周期内，则更新执行日期，延迟3天进行修改&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;b判断当前用户权益到期时间是否小于当前的续费时间，若小于当前续费时间则不进行修改&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;c&amp;nbsp; ab都通过，进行延期申请&lt;br&gt;pay+返回一个回调接口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-30" value="开辟线程直接落表，id、lid、执行日期、下单时间、c_date、u_date、执行状态、订单json&lt;br&gt;定时任务 轮询前一天用户数据，&lt;br&gt;修改条件：1、用户有签约信息&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a 获取当前签约的续费周期，判断当前时间是否处于续费周期内，若处在续费周期内，则更新执行日期，延迟3天进行修改&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;b判断当前用户权益到期时间是否小于当前的续费时间，若小于当前续费时间则不进行修改&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;c&amp;nbsp; ab都通过，进行延期申请&lt;br&gt;pay+返回一个回调接口&lt;br&gt;&lt;br&gt;提供一个当前用户签约续费时间查询的接口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="930" width="550" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7HXPHZwloIw2rMWPd2Ez-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-26" target="7HXPHZwloIw2rMWPd2Ez-26">
