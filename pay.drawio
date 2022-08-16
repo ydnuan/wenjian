@@ -1,1 +1,165 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T06:58:54.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="bRI3CIeA9TVp-UrDaJ4_" type="github"><diagram id="sGbhmzFvRG2bLKqfwy7_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-16T07:54:06.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Ke0kex2sPDFMiJ7MQeCt" version="20.2.3" type="github" pages="3">
+  <diagram id="sGbhmzFvRG2bLKqfwy7_" name="修改续费周期">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-1" value="续费周期可修改情况：&lt;br&gt;1、普包vip用户，购买连续产品&lt;br&gt;2、连续vip，购买普包&lt;br&gt;3、连续非vip，购买普包&lt;br&gt;上述两种需要扣款时间需要修改至权益到期时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-2" target="7HXPHZwloIw2rMWPd2Ez-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-22" value="1、/payorder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7HXPHZwloIw2rMWPd2Ez-15">
+          <mxGeometry x="-0.1733" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-2" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-3" target="7HXPHZwloIw2rMWPd2Ez-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-24" value="2、创建订单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7HXPHZwloIw2rMWPd2Ez-23">
+          <mxGeometry x="-0.5091" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-3" value="bss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-4" target="7HXPHZwloIw2rMWPd2Ez-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-29" value="/pay/notify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7HXPHZwloIw2rMWPd2Ez-27">
+          <mxGeometry x="0.6606" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQ58pM9c0JveUMJpRUWD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-4" target="7HXPHZwloIw2rMWPd2Ez-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQ58pM9c0JveUMJpRUWD-2" value="回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MQ58pM9c0JveUMJpRUWD-1">
+          <mxGeometry x="0.2522" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-4" value="pay+" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-5" value="bms" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.133;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-3" target="7HXPHZwloIw2rMWPd2Ez-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="160" as="sourcePoint" />
+            <mxPoint x="340" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-20" value="3、返回订单，且生成二维码" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="7HXPHZwloIw2rMWPd2Ez-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-21" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="7HXPHZwloIw2rMWPd2Ez-19">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-26" value="bss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-30" value="开辟线程直接落表，id、lid、执行日期、下单时间、c_date、u_date、执行状态、订单json&lt;br&gt;定时任务 轮询前一天用户数据，&lt;br&gt;修改条件：1、用户有签约信息&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a 获取当前签约的续费周期，判断当前时间是否处于续费周期内，若处在续费周期内，则更新执行日期，延迟3天进行修改&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;b判断当前用户权益到期时间是否小于当前的续费时间，若小于当前续费时间则不进行修改&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;c&amp;nbsp; ab都通过，进行延期申请&lt;br&gt;pay+返回一个回调接口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="930" width="550" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXPHZwloIw2rMWPd2Ez-26" target="7HXPHZwloIw2rMWPd2Ez-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="830" as="sourcePoint" />
+            <mxPoint x="620" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXPHZwloIw2rMWPd2Ez-32" value="定时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="735" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-1" value="定时提醒：前端实时轮询" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1160" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTPQ4fdH1JUNCBjDmw1T-2" target="dTPQ4fdH1JUNCBjDmw1T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-5" value="获取续费时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dTPQ4fdH1JUNCBjDmw1T-4">
+          <mxGeometry x="-0.1882" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dTPQ4fdH1JUNCBjDmw1T-2" target="dTPQ4fdH1JUNCBjDmw1T-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1460" as="sourcePoint" />
+            <mxPoint x="500" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-9" value="通知bss通知epg发送过消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dTPQ4fdH1JUNCBjDmw1T-8">
+          <mxGeometry x="-0.1056" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-2" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTPQ4fdH1JUNCBjDmw1T-3" target="dTPQ4fdH1JUNCBjDmw1T-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-3" value="bss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTPQ4fdH1JUNCBjDmw1T-11" target="dTPQ4fdH1JUNCBjDmw1T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTPQ4fdH1JUNCBjDmw1T-11" value="epg保存消息数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F_IZst-wn2EYfqBuF-eC" name="产品展示">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lP6XAv11pDQYz8axwEB_-1" value="签约非vip用户展示连续包&lt;br&gt;涉及接口：&lt;br&gt;/getProdcut&lt;br&gt;/getPackageBtAlbum&lt;br&gt;/payorder&lt;br&gt;/getCouponInfo&lt;br&gt;/v2/getCoupon&lt;br&gt;/user/card&lt;br&gt;/user/card/count&lt;br&gt;bms上传&lt;br&gt;&lt;br&gt;添加签约非vip判定逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="370" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lP6XAv11pDQYz8axwEB_-2" value="bss" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lP6XAv11pDQYz8axwEB_-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lP6XAv11pDQYz8axwEB_-3" target="lP6XAv11pDQYz8axwEB_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lP6XAv11pDQYz8axwEB_-3" value="pay+" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lP6XAv11pDQYz8axwEB_-5" value="/pay/rescission" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="355" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lP6XAv11pDQYz8axwEB_-6" value="本接口问题：&lt;br&gt;有支付成功后，立即解约的情况。可能会出现解约数据先于签约数据被接收，&lt;br&gt;解决：1、添加分布式锁，（防止数据还未插入，就出现修改的情况）&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2、保存解约数据至临时表&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3、签约时，先查询是否有本条签约数据的解约数据，若有，则执行完保存数据后，更新解约记录&lt;br&gt;&lt;br&gt;签约非vip用户签约信息&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;签约时：先查询是否有处于签约中的数据，若有，则先解约，后插入本次签约数据&lt;br&gt;&lt;br&gt;&lt;br&gt;临时表字段:&lt;br&gt;id，lid，agreement_no ,lepay_agreement_no,c_date,u_date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="470" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5-KPXb6O6QwV8eVfVK3A" name="黄金会员">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ZwVrK3HqicntqEmRowp-1" value="1、确认黄金会员二维码生成方方式&lt;br&gt;2、目前 是/qrCode/iqiyiGoldVip -&amp;gt;&amp;nbsp;&amp;nbsp;/qrCode/mgr&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 需要新增一个是否领取过的状态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="330" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
