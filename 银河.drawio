@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T08:06:15.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.5" etag="seJk3EgKkb8eV67bEhxY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T08:43:55.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="0RvrBz8jMliWIuXeqyU5" version="21.1.5" type="github">
   <diagram name="第 1 页" id="0MWEX73DkwURR9G_DFWl">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-3" value="银河" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1hxm-ET6YpIyYJsLNecn-3">
+          <mxGeometry x="45" y="70" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-4" value="联想" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="100" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-11" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="1hxm-ET6YpIyYJsLNecn-10" parent="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry x="50" y="220" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-15" value="定时更新频道/节目单" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="1hxm-ET6YpIyYJsLNecn-14" parent="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-8" value="媒资变更通知" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="140" y="120" as="sourcePoint" />
+            <mxPoint x="200" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="1hxm-ET6YpIyYJsLNecn-10" target="1hxm-ET6YpIyYJsLNecn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="sourcePoint" />
+            <mxPoint x="330" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-12" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="sourcePoint" />
+            <mxPoint x="130" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="405" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-13" value="保存当前变更信息&lt;br&gt;1、频道更新&lt;br&gt;2、节目单更新" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.158;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="240" as="sourcePoint" />
+            <mxPoint x="510" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-18" value="1、频道更新接口（需要同步不同省份详细信息）" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-3">
+          <mxGeometry x="0.1408" width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="340" as="sourcePoint" />
+            <mxPoint x="60" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-22" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-23" value="2、节目单接口更新，需要同步不同省份详细信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="375" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="1hxm-ET6YpIyYJsLNecn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="460" as="sourcePoint" />
+            <mxPoint x="50" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-25" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1hxm-ET6YpIyYJsLNecn-30" target="1hxm-ET6YpIyYJsLNecn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1hxm-ET6YpIyYJsLNecn-31" value="更新详细信息" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
